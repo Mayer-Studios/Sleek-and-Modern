@@ -7,4 +7,3 @@ Find us online at https://mayer-studios.com
 Find us on Instagram https://instagram.com/mayerdevstudios/
 Find us on Twitter @mayerdevstudios
 
-![Test Image 1] (https://raw.githubusercontent.com/Mayer-Studios/Sleek-and-Modern/master/dUvSWktJ328mtjbt@1x.png)
