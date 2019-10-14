@@ -1,0 +1,29 @@
+{
+  "fitbit": {
+    "appUUID": "ab9db6aa-1d76-4620-9c87-808db9c7cb2c",
+    "appType": "clockface",
+    "appDisplayName": "Sleek & Modern",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_user_profile",
+      "access_activity",
+      "access_internet",
+      "access_location",
+      "run_background",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Sleek & Modern"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}

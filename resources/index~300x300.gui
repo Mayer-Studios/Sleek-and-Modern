@@ -1,0 +1,57 @@
+<svg>
+   <rect id="background" width="100%" height="100%" x="0" y="0" /> 
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+    <!-- Additional Imports -->
+    <link rel="import" href="/mnt/sysassets/widgets/push_button_widget.gui" />
+  </defs>  
+  
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect id="min" x="$-4" y="-110" width="8" height="110" fill="white" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect id="hour" x="$-6" y="-75" width="12" height="75" fill="white" />
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect id="sec" x="$-2" y="-120" width="4" height="120" fill="white" />
+  </g>
+  <circle id="circle" cx="50%" cy="50%" r="10" fill="#444444" />
+   <text id="myLeft" x="20%" y="10%+15"
+      fill="white" font-size="40" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="200">Please</text>
+   <text id="myTemp" x="50%" y="90%+15"
+      fill="white" font-size="20" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="200">Loading </text>
+  <text id="myRight" x="75%" y="10%+15"
+      fill="white" font-size="40" font-family="Tungsten-Medium"
+      text-anchor="middle" text-length="200">Set Up!</text>
+  <text id="myHR" x="85%" y="10%+15"
+      fill="white" font-size="30" font-family="Colfax-Light"
+      text-anchor="middle" text-length="200">Loading</text>
+  <text id="mySteps" x="15%" y="10%+15"
+      fill="white" font-size="30" font-family="Colfax-Light"
+      text-anchor="middle" text-length="200">Loading</text>
+  <text id="myFloors" x="15%" y="85%+15"
+      fill="white" font-size="30" font-family="Colfax-Light"
+      text-anchor="middle" text-length="200">Loading</text>
+  <text id="myActiveMins" x="85%" y="85%+15"
+      fill="white" font-size="30" font-family="Colfax-Light"
+      text-anchor="middle" text-length="200">Loading</text>
+  <text id="myDate" x="50%" y="93%+15"
+      fill="white" font-size="30" font-family="Colfax-Light"
+      text-anchor="middle" text-length="200">Loading</text>
+   <use id="hiddenButton" href="#push-button"
+    fill="fb-red" opacity="0" font-family="System-Regular" font-size="40">
+    <set href="#text" attributeName="text-buffer" to="Click Me!" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+  <arc id="calRing" x="85" y="82" width="130" height="130" fill="orange" arc-width="18" start-angle="0" sweep-angle="0" />
+<arc id="stepRing" x="45" y="42" width="210" height="210" fill="green" arc-width="18" start-angle="0" sweep-angle="0" />
+<arc id="minsRing" x="65" y="62" width="170" height="170" fill="red" arc-width="18" start-angle="0" sweep-angle="0" />
+
+  
+ 
+
+</svg>
