@@ -7,3 +7,5 @@ Find us online at https://mayer-studios.com
 Find us on Instagram https://instagram.com/mayerdevstudios/
 Find us on Twitter @mayerdevstudios
 
+![Image of Sleek and Modern](https://mayer-studios.com/assets/sleekmodern.png)
+
